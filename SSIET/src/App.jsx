@@ -15,17 +15,17 @@ function App() {
   return (
     <>
     <Navbar />
-    {/* <Banner /> */}
-    {/* <Department /> */}
+    <Banner />
+    <Department />
     <Admissions />
-    {/* <Contact /> */}
-    {/* <AboutUs /> */}
-    {/* <Facilities /> */} 
-    {/* <Placement /> */}
-    {/* <Alumni /> */}
-    {/* <Gallery /> */}
-    {/* <Events /> */}
-    {/* <Footer /> */}
+    <Contact />
+    <AboutUs />
+    <Facilities /> 
+    <Placement />
+    <Alumni />
+    <Gallery />
+    <Events />
+    <Footer />
     </>
   );
 }

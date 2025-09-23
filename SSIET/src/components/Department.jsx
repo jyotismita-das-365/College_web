@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 // Importing department images
 import civil_dept from "../assets/department/civil_dept.jpg";
 import cse_dept from "../assets/department/cse_dept.jpg";
@@ -38,62 +39,64 @@ const Department = () => {
   const [hovered, setHovered] = useState(null);
 
   return (
-    // Main container with background and padding
-    <div className="bg-blue-50 min-h-screen py-10">
-      {/* Header section */}
-      <div className="max-w-4xl mx-auto text-center mb-10 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold text-black mb-4 drop-shadow-lg">
-          Explore Our Departments
-        </h1>
-        <p className="text-base sm:text-lg text-gray-800">
-          Discover the diverse range of academic departments that make our institution a hub of knowledge and innovation. Each department is dedicated to providing top-notch education, fostering research, and nurturing talent in their respective fields.
-        </p>
-      </div>
+    <>
+      {/* Main container section for Departments page */}
+      <div className="bg-blue-50 min-h-screen py-10">
+        {/* Header section */}
+        <div className="max-w-4xl mx-auto text-center mb-10 px-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-black mb-4 drop-shadow-lg">
+            Explore Our Departments
+          </h1>
+          <p className="text-base sm:text-lg text-gray-800">
+            Discover the diverse range of academic departments that make our institution a hub of knowledge and innovation. Each department is dedicated to providing top-notch education, fostering research, and nurturing talent in their respective fields.
+          </p>
+        </div>
 
-      {/* Grid of department cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 px-2">
-        {departments.map((dept, idx) => (
-          // Department card
-          <div
-            key={idx}
-            className={`relative bg-white border-2 rounded-2xl shadow-xl transition-transform duration-300 ease-in-out
-              ${hovered === idx
-                ? "scale-105 border-blue-900 shadow-blue-900"
-                : "hover:scale-105 hover:border-red-600 hover:shadow-red-200 border-black shadow-blue-100"}
-              flex flex-col items-center p-4 sm:p-5 cursor-pointer h-[30rem] sm:h-[32rem]`}
-            onMouseEnter={() => setHovered(idx)} // Set hovered card index
-            onMouseLeave={() => setHovered(null)} // Reset hovered card
-          >
-            {/* Department image */}
-            <div className={`w-full rounded-lg mb-4 border-4 transition-all duration-300
-              ${hovered === idx ? "border-blue-900 bg-blue-100" : "border-red-200 bg-red-50"}`}>
-              <img
-                src={dept.img}
-                alt={dept.alt}
-                className="rounded-lg w-full h-36 sm:h-40 object-cover"
-              />
-            </div>
-            {/* Department title */}
-            <h2 className="text-xl sm:text-2xl font-semibold text-black mb-2 text-center drop-shadow-md">
-              {dept.title}
-            </h2>
-            {/* Department description */}
-            <p className="text-gray-700 text-sm sm:text-base text-center flex-1">
-              {dept.desc}
-            </p>
-            {/* Learn More button */}
-            <button
-              className={`absolute bottom-6 left-1/2 -translate-x-1/2 font-semibold px-3 py-2 sm:px-4 sm:py-2 rounded-lg shadow-md border-2 text-sm sm:text-base
+        {/* Grid section for department cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 px-2">
+          {departments.map((dept, idx) => (
+            // Department card section
+            <div
+              key={idx}
+              className={`relative bg-white border-2 rounded-2xl shadow-xl transition-transform duration-300 ease-in-out
                 ${hovered === idx
-                  ? "bg-blue-900 text-white border-black"
-                  : "bg-red-600 text-white border-blue-900 hover:bg-black hover:text-red-400"}`}
+                  ? "scale-105 border-blue-900 shadow-blue-900"
+                  : "hover:scale-105 hover:border-red-600 hover:shadow-red-200 border-black shadow-blue-100"}
+                flex flex-col items-center p-4 sm:p-5 cursor-pointer h-[30rem] sm:h-[32rem]`}
+              onMouseEnter={() => setHovered(idx)} // Set hovered card index
+              onMouseLeave={() => setHovered(null)} // Reset hovered card
             >
-              Learn More
-            </button>
-          </div>
-        ))}
+              {/* Department image section */}
+              <div className={`w-full rounded-lg mb-4 border-4 transition-all duration-300
+                ${hovered === idx ? "border-blue-900 bg-blue-100" : "border-red-200 bg-red-50"}`}>
+                <img
+                  src={dept.img}
+                  alt={dept.alt}
+                  className="rounded-lg w-full h-36 sm:h-40 object-cover"
+                />
+              </div>
+              {/* Department title section */}
+              <h2 className="text-xl sm:text-2xl font-semibold text-black mb-2 text-center drop-shadow-md">
+                {dept.title}
+              </h2>
+              {/* Department description section */}
+              <p className="text-gray-700 text-sm sm:text-base text-center flex-1">
+                {dept.desc}
+              </p>
+              {/* Learn More button section */}
+              <button
+                className={`absolute bottom-6 left-1/2 -translate-x-1/2 font-semibold px-3 py-2 sm:px-4 sm:py-2 rounded-lg shadow-md border-2 text-sm sm:text-base
+                  ${hovered === idx
+                    ? "bg-blue-900 text-white border-black"
+                    : "bg-red-600 text-white border-blue-900 hover:bg-black hover:text-red-400"}`}
+              >
+                Learn More
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
