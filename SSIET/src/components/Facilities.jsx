@@ -1,3 +1,5 @@
+import { SquareLibrary, FlaskConical } from 'lucide-react';
+
 const Facilities = () => {
   return (
     <>
@@ -19,15 +21,7 @@ const Facilities = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 z-10 relative">
           {/* Facility: Library */}
           <div className="flex bg-white/80 rounded-2xl p-8 shadow-md border border-yellow-100 items-start gap-5">
-            <span>
-              {/* Lucide: Book */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path d="M2 19.5A2.5 2.5 0 0 1 4.5 17H20"/>
-                <path d="M2 6.5A2.5 2.5 0 0 1 4.5 4H20"/>
-                <path d="M20 22V4"/>
-                <path d="M4.5 17A2.5 2.5 0 0 0 2 19.5V6.5"/>
-              </svg>
-            </span>
+            <SquareLibrary />
             <div>
               <h3 className="text-2xl font-bold text-yellow-700 mb-2">Central Library</h3>
               <p className="text-gray-700 text-base">
@@ -35,15 +29,11 @@ const Facilities = () => {
               </p>
             </div>
           </div>
+
           {/* Facility: Laboratories */}
           <div className="flex bg-white/80 rounded-2xl p-8 shadow-md border border-red-100 items-start gap-5">
-            <span>
               {/* Lucide: Flask */}
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path d="M6 2v6.586a1 1 0 0 1-.293.707l-3.414 3.414A2 2 0 0 0 4 18h16a2 2 0 0 0 1.707-3.293l-3.414-3.414A1 1 0 0 1 18 8.586V2"/>
-                <line x1="6" y1="2" x2="18" y2="2"/>
-              </svg>
-            </span>
+              <FlaskConical />
             <div>
               <h3 className="text-2xl font-bold text-red-700 mb-2">State-of-the-Art Laboratories</h3>
               <p className="text-gray-700 text-base">

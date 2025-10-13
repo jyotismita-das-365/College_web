@@ -1,7 +1,4 @@
-import { CircleDot } from 'lucide-react';
-import { Eye } from 'lucide-react';
-import { Star } from 'lucide-react';
-import { ThumbsUp } from 'lucide-react';
+import { CircleDot, Eye, Star, ThumbsUp } from 'lucide-react';
 
 // AboutUs component displays information about the institution
 const AboutUs = () => {
@@ -28,7 +25,7 @@ const AboutUs = () => {
           {/* Our Mission */}
           <div className="flex-1 bg-white/80 rounded-2xl p-8 shadow-md border border-red-100 flex flex-col justify-center items-start space-y-4">
             <h3 className="text-2xl font-bold text-red-600 mb-2 flex items-center gap-2">
-              {/* Lucide: Circle-dot */}
+              {/* Lucide: Circle-dot icon */}
               <CircleDot />
               Our Mission
             </h3>
@@ -39,7 +36,7 @@ const AboutUs = () => {
           {/* Our Vision */}
           <div className="flex-1 bg-white/80 rounded-2xl p-8 shadow-md border border-yellow-100 flex flex-col justify-center items-start space-y-4">
             <h3 className="text-2xl font-bold text-red-600 mb-2 flex items-center gap-2">
-              {/* Lucide: Eye */}
+              {/* Lucide: Eye icon */}
               <Eye />
               Our Vision
             </h3>

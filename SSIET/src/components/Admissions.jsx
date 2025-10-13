@@ -106,11 +106,31 @@ const Admissions = () => {
                   <option value="">Select a course</option>
                   <option value="B.Tech">B.Tech</option>
                   <option value="M.Tech">M.Tech</option>
-                  <option value="MBA">MBA</option>
                   <option value="Diploma">Diploma</option>
                 </select>
               </label>
             </div>
+
+            {/* Branch selection field section */}
+            <div className="mb-4">
+              <label className="block font-medium mb-1">
+                Branch:
+                <select
+                  name="branch"
+                  value={form.branch}
+                  onChange={handleChange}
+                  required
+                  className="w-full mt-1 p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+                >
+                  <option value="">Select a branch</option>
+                  <option value="cse">CSE</option>
+                  <option value="civil">Civil</option>
+                  <option value="me">ME</option>
+                  <option value="ee">EE</option>
+                </select>
+              </label>
+            </div>
+
             {/* Message Field Section */}
             <div className="mb-4">
               <label className="block font-medium mb-1">

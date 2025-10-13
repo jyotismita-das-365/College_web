@@ -10,22 +10,24 @@ import Gallery from "./components/Gallery";
 import Events from "./components/Events";
 import Footer from "./components/Footer";
 import Banner from "./components/Banner";
+import Whatsapp from "./components/whatsapp";
 
 function App() {
   return (
     <>
     <Navbar />
-    <Banner />
-    <Department />
-    <Admissions />
-    <Contact />
-    <AboutUs />
+    {/* <Whatsapp /> */}
+    {/* <Banner /> */}
+    {/* <Department /> */}
+    {/* <Admissions /> */}
+    {/* <Contact /> */}
+    {/* <AboutUs /> */}
     <Facilities /> 
-    <Placement />
-    <Alumni />
-    <Gallery />
-    <Events />
-    <Footer />
+    {/* <Placement /> */}
+    {/* <Alumni /> */}
+    {/* <Gallery /> */}
+    {/* <Events /> */}
+    {/* <Footer /> */}
     </>
   );
 }
