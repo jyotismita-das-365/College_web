@@ -15,19 +15,19 @@ import Whatsapp from "./components/whatsapp";
 function App() {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     {/* <Whatsapp /> */}
     {/* <Banner /> */}
     {/* <Department /> */}
     {/* <Admissions /> */}
     {/* <Contact /> */}
     {/* <AboutUs /> */}
-    <Facilities /> 
+    {/* <Facilities />  */}
     {/* <Placement /> */}
     {/* <Alumni /> */}
-    {/* <Gallery /> */}
-    {/* <Events /> */}
-    {/* <Footer /> */}
+    <Gallery />
+    {/* <Events />
+    <Footer /> */}
     </>
   );
 }

@@ -1,10 +1,17 @@
+import alu1 from "../assets/alumni/alu1.jpg"
+import alu2 from "../assets/alumni/alu2.jpg"
+import alu3 from "../assets/alumni/alu3.webp"
+import alu4 from "../assets/alumni/alu4.jpg"
+import alu5 from "../assets/alumni/alu5.jpg"
+import alu6 from "../assets/alumni/alu6.jpg"
+
 // Alumni data array section
 const alumniData = [
   {
     name: "Amit Sharma",
     year: "2018",
-    position: "Software Engineer at Google",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    position: "Software Engineer at Allengers",
+    image: alu1,
     testimonial: "SSIET gave me the foundation to excel in my career.",
     location: "Bangalore, India",
     linkedin: "https://linkedin.com/in/amitsharma",
@@ -12,8 +19,8 @@ const alumniData = [
   {
     name: "Priya Singh",
     year: "2019",
-    position: "Data Analyst at Microsoft",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    position: "Data Analyst at TOI",
+    image: alu2,
     testimonial: "The faculty and environment were amazing!",
     location: "Hyderabad, India",
     linkedin: "https://linkedin.com/in/priyasingh",
@@ -21,8 +28,8 @@ const alumniData = [
   {
     name: "Rahul Verma",
     year: "2020",
-    position: "Product Manager at Amazon",
-    image: "https://randomuser.me/api/portraits/men/65.jpg",
+    position: "Product Manager at HCL",
+    image: alu3,
     testimonial: "I cherish the memories and learning at SSIET.",
     location: "Seattle, USA",
     linkedin: "https://linkedin.com/in/rahulverma",
@@ -30,8 +37,8 @@ const alumniData = [
   {
     name: "Sneha Patel",
     year: "2021",
-    position: "UX Designer at Adobe",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    position: "UX Designer at Sasvat",
+    image: alu4,
     testimonial: "SSIET helped me discover my passion for design.",
     location: "Pune, India",
     linkedin: "https://linkedin.com/in/snehapatel",
@@ -39,8 +46,8 @@ const alumniData = [
   {
     name: "Vikram Joshi",
     year: "2017",
-    position: "AI Researcher at IBM",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    position: "AI Researcher at NetSmartz",
+    image: alu5,
     testimonial: "The projects and labs were truly world-class.",
     location: "Delhi, India",
     linkedin: "https://linkedin.com/in/vikramjoshi",
@@ -48,8 +55,8 @@ const alumniData = [
   {
     name: "Anjali Rao",
     year: "2016",
-    position: "CTO at StartupX",
-    image: "https://randomuser.me/api/portraits/women/12.jpg",
+    position: "CTO at PernodRicard",
+    image: alu6,
     testimonial: "SSIET's network opened doors for my startup journey.",
     location: "San Francisco, USA",
     linkedin: "https://linkedin.com/in/anjalirao",
@@ -110,5 +117,4 @@ const Alumni = () => {
   );
 };
 
-// Export Alumni component section
 export default Alumni;
