@@ -43,12 +43,6 @@ const Navbar = () => {
           <a href="#" className="font-bold hover:text-yellow-400 transition-colors">
             Alumni {/* Alumni section link */}
           </a>
-          <a href="#" className="font-bold hover:text-yellow-400 transition-colors">
-            Gallery {/* Gallery section link */}
-          </a>
-          <a href="#" className="font-bold hover:text-yellow-400 transition-colors">
-            Events {/* Events section link */}
-          </a>
         </div>
       </div>
       {/* Spacer div to prevent content from being hidden behind the fixed navbar */}
