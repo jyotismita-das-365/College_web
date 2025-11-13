@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Department from "./components/Department";
 import Admissions from "./components/Admissions";
@@ -13,17 +14,17 @@ import Whatsapp from "./components/whatsapp";
 function App() {
   return (
     <>
-    <Navbar />
-    <Whatsapp />
-    <Banner />
-    <Department />
-    <Admissions />
-    <Contact />
-    <AboutUs />
-    <Facilities /> 
-    <Placement />
-    <Alumni />
-    <Footer />
+      <Navbar />
+      {/* <Whatsapp />
+      <Banner />
+      <Department />
+      <Admissions />
+      <Contact />
+      <AboutUs />
+      <Facilities />
+      <Placement />
+      <Alumni />
+      <Footer /> */}
     </>
   );
 }
