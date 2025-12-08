@@ -4,7 +4,7 @@ import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-red-200 via-red-100 to-yellow-100 border-t-2 border-red-300 shadow-inner mt-16">
+    <footer className="bg-red-200 border-t-2 border-red-400 shadow-inner mt-16">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Logo and About */}
         <div>
