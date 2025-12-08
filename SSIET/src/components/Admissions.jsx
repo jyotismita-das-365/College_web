@@ -30,7 +30,7 @@ const Admissions = () => {
   {/* Render Section */}
   return (
     // Main container for Admissions section
-    <div className="max-w-xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg">
+    <div className="max-w-xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-lg pt-20">
       {/* Section Title */}
       <h2 className="text-2xl font-bold mb-2">Admissions</h2>
       {/* Section Description */}

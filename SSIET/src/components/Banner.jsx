@@ -51,7 +51,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full pt-20">
       {/* Banner Image */}
       <img
         src={banners[current]}

@@ -4,6 +4,7 @@ import alu3 from "../assets/alumni/alu3.webp"
 import alu4 from "../assets/alumni/alu4.jpg"
 import alu5 from "../assets/alumni/alu5.jpg"
 import alu6 from "../assets/alumni/alu6.jpg"
+import { Linkedin } from 'lucide-react';
 
 // Alumni data array section
 const alumniData = [
@@ -67,7 +68,7 @@ const alumniData = [
 const Alumni = () => {
   return (
     // Main alumni section container
-    <div className="bg-gray-50 min-h-screen py-10">
+    <div className="bg-gray-50 min-h-screen py-10 pt-24">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section Title */}
         <h1 className="text-4xl font-bold text-center mb-8 text-blue-700">Our Alumni</h1>
@@ -103,10 +104,8 @@ const Alumni = () => {
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline text-sm flex items-center gap-1"
               >
-                {/* LinkedIn SVG Icon */}
-                <svg className="w-4 h-4 inline" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.869 0-2.156 1.459-2.156 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.381-1.563 2.844-1.563 3.042 0 3.604 2.002 3.604 4.604v5.592z"/>
-                </svg>
+                {/* LinkedIn Lucide Icon */}
+                  <Linkedin />
                 LinkedIn
               </a>
             </div>

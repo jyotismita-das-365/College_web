@@ -44,7 +44,7 @@ const Department = () => {
       <div className="bg-blue-50 min-h-screen py-10">
         {/* Header section */}
         <div className="max-w-4xl mx-auto text-center mb-10 px-4">
-          <h1 className="text-3xl sm:text-4xl font-bold text-black mb-4 drop-shadow-lg">
+          <h1 className="text-3xl sm:text-4xl font-bold text-black mb-4 drop-shadow-lg pt-14">
             Explore Our Departments
           </h1>
           <p className="text-base sm:text-lg text-gray-800">
