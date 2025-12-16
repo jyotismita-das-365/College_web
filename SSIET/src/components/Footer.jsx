@@ -15,13 +15,7 @@ const Footer = () => {
             Sri Sukhmani Group of Institute & Technology (SSIET) is committed to excellence in education, research, and holistic development of students.
           </p>
           <div className="flex gap-3 mt-2">
-            <a href="#" aria-label="Facebook" className="text-blue-700 transition-colors">
-              <Facebook />
-            </a>
-            <a href="#" aria-label="Twitter" className="text-blue-700 hover:text-blue-500 transition-colors">
-              <Twitter />
-            </a>
-            <a href="#" aria-label="Instagram" className="text-blue-700 hover:text-blue-500 transition-colors">
+            <a href="https://www.instagram.com/srisukhmanigroupinstitutes/" aria-label="Instagram" className="text-blue-700 hover:text-blue-500 transition-colors">
               <Instagram />
             </a>
           </div>

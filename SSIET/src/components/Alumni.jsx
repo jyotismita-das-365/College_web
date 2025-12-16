@@ -1,66 +1,66 @@
-import alu1 from "../assets/alumni/alu1.jpg"
-import alu2 from "../assets/alumni/alu2.jpg"
-import alu3 from "../assets/alumni/alu3.webp"
-import alu4 from "../assets/alumni/alu4.jpg"
-import alu5 from "../assets/alumni/alu5.jpg"
-import alu6 from "../assets/alumni/alu6.jpg"
+import  alumni1 from "../assets/alumni/alumni1.jpg"
+import alumni2 from "../assets/alumni/alumni2.jpg"
+import alumni3 from "../assets/alumni/alumni3.jpg"
+import alumni4 from "../assets/alumni/alumni4.jpg"
+import alumni5 from "../assets/alumni/alumni5.jpg"
+import alumni6 from "../assets/alumni/alumni6.jpg"
 import { Linkedin } from 'lucide-react';
 
 // Alumni data array section
 const alumniData = [
   {
-    name: "Amit Sharma",
-    year: "2018",
-    position: "Software Engineer at Allengers",
-    image: alu1,
-    testimonial: "SSIET gave me the foundation to excel in my career.",
-    location: "Bangalore, India",
-    linkedin: "https://linkedin.com/in/amitsharma",
+    name: "Jyotismita Das",
+    year: "2027",
+    position: "Software Engineer at Chandigarh",
+    image:  alumni1,
+    testimonial: "SSIET gave me the key to enter in Engineering profession.",
+    location: "Chandigarh, India",
+    linkedin: "https://www.linkedin.com/in/iamjyotismitadas/",
   },
   {
-    name: "Priya Singh",
-    year: "2019",
+    name: "Abhinav Sharma",
+    year: "2026",
     position: "Data Analyst at TOI",
-    image: alu2,
+    image: alumni2,
     testimonial: "The faculty and environment were amazing!",
     location: "Hyderabad, India",
-    linkedin: "https://linkedin.com/in/priyasingh",
+    linkedin: "https://www.linkedin.com/in/abhinav-sharma-693179312/",
   },
   {
-    name: "Rahul Verma",
-    year: "2020",
-    position: "Product Manager at HCL",
-    image: alu3,
+    name: "Aditya Mishra",
+    year: "2026",
+    position: "PHP Developer at Amazon",
+    image: alumni3,
     testimonial: "I cherish the memories and learning at SSIET.",
-    location: "Seattle, USA",
-    linkedin: "https://linkedin.com/in/rahulverma",
+    location: "Bangalore, India",
+    linkedin: "https://www.linkedin.com/in/adityamishras/",
   },
   {
-    name: "Sneha Patel",
-    year: "2021",
-    position: "UX Designer at Sasvat",
-    image: alu4,
+    name: "Umar Samanani",
+    year: "2027",
+    position: "UX Designer at Pune",
+    image: alumni4,
     testimonial: "SSIET helped me discover my passion for design.",
     location: "Pune, India",
-    linkedin: "https://linkedin.com/in/snehapatel",
+    linkedin: "https://www.linkedin.com/in/umar-samanani-627343318/",
   },
   {
-    name: "Vikram Joshi",
-    year: "2017",
-    position: "AI Researcher at NetSmartz",
-    image: alu5,
+    name: "Sameep",
+    year: "2027",
+    position: "Data Scientist at Delhi",
+    image: alumni5,
     testimonial: "The projects and labs were truly world-class.",
     location: "Delhi, India",
-    linkedin: "https://linkedin.com/in/vikramjoshi",
+    linkedin: "https://www.linkedin.com/in/sameep-67848b2b6/",
   },
   {
-    name: "Anjali Rao",
-    year: "2016",
-    position: "CTO at PernodRicard",
-    image: alu6,
-    testimonial: "SSIET's network opened doors for my startup journey.",
-    location: "San Francisco, USA",
-    linkedin: "https://linkedin.com/in/anjalirao",
+    name: "Mayank",
+    year: "2027",
+    position: "Data Analyst at Delhi",
+    image: alumni6,
+    testimonial: "SSIET's network opened doors for my professional journey.",
+    location: "Delhi, India",
+    linkedin: "https://www.linkedin.com/in/mayank-568687245/",
   },
 ];
 

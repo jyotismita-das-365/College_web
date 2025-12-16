@@ -32,7 +32,7 @@ const Navbar = () => {
             <img
               src={collegelogo}
               alt="College Logo"
-              className="w-12 h-12 rounded-full object-cover border-2 border-black shadow-md"
+              className="w-12 h-12 rounded-full object-cover border-2 border-black shadow-md "
               style={{ backgroundColor: 'white' }}
             />
             
