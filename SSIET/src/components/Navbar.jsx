@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <>
       <BrowserRouter>
-        <nav className="w-full bg-red-600 text-white fixed top-0 left-0 z-50 shadow-md">
+        <nav className="w-full bg-red-600 text-white fixed top-0 left-0 z-50 shadow-md border-solid border-red-950 border-2">
           <div className="w-full flex justify-between items-center py-4 px-4">
             <img
               src={collegelogo}

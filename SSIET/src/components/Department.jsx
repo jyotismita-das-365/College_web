@@ -1,10 +1,14 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 // Importing department images
 import civil_dept from "../assets/department/civil_dept.jpg";
 import cse_dept from "../assets/department/cse_dept.jpg";
 import ee_dept from "../assets/department/ee_dept.jpg";
 import me_dept from "../assets/department/me_dept.jpg";
+
+//Importing components
+import departDetails from "../components/DepartDetails.jsx";
 
 // Array of department data (image, alt text, title, description)
 const departments = [
@@ -35,6 +39,7 @@ const departments = [
 ];
 
 const Department = () => {
+  const navigate = useNavigate();
   // State to track which department card is hovered
   const [hovered, setHovered] = useState(null);
 
@@ -84,13 +89,20 @@ const Department = () => {
                 {dept.desc}
               </p>
               {/* Learn More button section */}
+              {/* <button
+                className={`absolute bottom-6 left-1/2 -translate-x-1/2 font-semibold px-3 py-2 sm:px-4 sm:py-2 rounded-lg shadow-md border-2 text-sm sm:text-base
+                  ${hovered === idx
+                    ? "bg-blue-900 text-white border-black"
+                    : "bg-red-600 text-white border-blue-900 hover:bg-black hover:text-red-400"}`}
+              >Learn More
+              </button> */}
+
               <button
                 className={`absolute bottom-6 left-1/2 -translate-x-1/2 font-semibold px-3 py-2 sm:px-4 sm:py-2 rounded-lg shadow-md border-2 text-sm sm:text-base
                   ${hovered === idx
                     ? "bg-blue-900 text-white border-black"
                     : "bg-red-600 text-white border-blue-900 hover:bg-black hover:text-red-400"}`}
-              >
-                Learn More
+                    onClick={() => navigate ("/departDetails")}>Learn More
               </button>
             </div>
           ))}
