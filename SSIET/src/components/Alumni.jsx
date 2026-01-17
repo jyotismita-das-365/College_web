@@ -14,7 +14,7 @@ const alumniData = [
     position: "Software Engineer at Chandigarh",
     image:  alumni1,
     testimonial: "SSIET gave me the key to enter in Engineering profession.",
-    location: "Chandigarh, India",
+    location: "Odisha, India",
     linkedin: "https://www.linkedin.com/in/iamjyotismitadas/",
   },
   {

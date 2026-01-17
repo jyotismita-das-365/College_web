@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-    <Achievements />
-    {/* <Navbar /> */}
+    {/* <Achievements /> */}
+    <Navbar />
     </>
   );
 }
