@@ -1,5 +1,9 @@
 const DepartDetails = () => {
-  return <div>Department Details Page</div>;
-}
+  return (
+    <>
+      <h1>Department details</h1>
+    </>
+  );
+};
 
 export default DepartDetails;
