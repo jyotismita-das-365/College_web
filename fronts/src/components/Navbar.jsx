@@ -12,8 +12,7 @@ const Navbar = () => {
   return (
     <>
       <BrowserRouter>
-        <nav>
-          <div>
+        <nav className="bg-red-700">
             <img src={collegelogo} alt="College Logo" />
             <div>
               <Link to="/">Home</Link>
@@ -23,7 +22,6 @@ const Navbar = () => {
               <Link to="/Facilities">Facilities</Link>
               <Link to="/Placement">Placement</Link>
             </div>
-          </div>
         </nav>
 
         <Routes>

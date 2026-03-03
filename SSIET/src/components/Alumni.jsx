@@ -1,9 +1,7 @@
 import alumni1 from "../assets/alumni/alumni1.jpg";
 import alumni2 from "../assets/alumni/alumni2.jpg";
-import alumni3 from "../assets/alumni/alumni2.jpg";
-import alumni4 from "../assets/alumni/alumn2.jpg";
-import alumni5 from "../assets/alumni/alumn3.jpg";
-import alumni6 from "../assets/alumni/alumn4.jpg";
+import alumni3 from "../assets/alumni/alumni3.jpg";
+import alumni4 from "../assets/alumni/alumni4.jpg";
 import { Linkedin } from "lucide-react";
 
 // Alumni data array section
@@ -21,7 +19,7 @@ const alumniData = [
     name: "Umar Samanani",
     year: "2027",
     position: "UX Designer at Pune",
-    image: alumni4,
+    image: alumni2,
     testimonial: "SSIET helped me discover my passion for design.",
     location: "Pune, India",
     linkedin: "https://www.linkedin.com/in/umar-samanani-627343318/",
@@ -30,7 +28,7 @@ const alumniData = [
     name: "Sameep",
     year: "2027",
     position: "Data Scientist at Delhi",
-    image: alumni5,
+    image: alumni3,
     testimonial: "The projects and labs were truly world-class.",
     location: "Delhi, India",
     linkedin: "https://www.linkedin.com/in/sameep-67848b2b6/",
@@ -39,7 +37,7 @@ const alumniData = [
     name: "Mayank",
     year: "2027",
     position: "Data Analyst at Delhi",
-    image: alumni6,
+    image: alumni4,
     testimonial: "SSIET's network opened doors for my professional journey.",
     location: "Delhi, India",
     linkedin: "https://www.linkedin.com/in/mayank-568687245/",
